@@ -6,6 +6,6 @@ services:
     restart: always
     ports:
      - "8443:8443"
-    command: bash -c "code-server --allow-http --no-auth" 
+    command: --allow-http --no-auth
     volumes:
      - ./project:/root/project
